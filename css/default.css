@@ -1,0 +1,22 @@
+
+:root {
+  --button-default-background:rgb(47, 45, 45);
+  --button-default-color:white;
+  
+  /* font-size */
+  --font-size-laptop:18px;
+  --font-title-panel:1.8rem;
+  
+  /* line-height */
+  --line-height:2em;
+
+  /* color de letra */
+  --text-initial-color:rgb(7, 13, 34);
+
+  /* color default */
+  --purple:rebeccapurple;
+  --soft-white:rgb(240, 240, 240);
+  --gray:rgb(131, 131, 131);
+
+  --shadow-dark:rgb(153, 150, 150);
+}
