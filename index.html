@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MY.AI</title>
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/config.css">
   <link rel="stylesheet" href="css/elementos.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mod.css">
 </head>
 
 <body>
@@ -33,9 +35,9 @@
         </nav>
       </header>
       <main>
-        <section class="dashboard-panel">
+        <section class="panel dashboard-panel is-hiden">
           <div class="dashboard-info">
-            <h1 class="dashboard-info-title">
+            <h1 class="title-panel">
               Get better
               <div class="dashboard-group-badge">
                 <div class="badge">
@@ -47,7 +49,7 @@
               </div> <br>
               from your data
             </h1>
-            <p>
+            <p class="text-panel">
               Do you have too much unflitered data? <br>
               We can help you maximize your results
             </p>
@@ -55,7 +57,7 @@
               <input type="text" id="input-correo" placeholder="Enter your email-address">
               <button class="button button--lg">Get Started</button>
             </label>
-            <ul class="dashboard-list-features">
+            <ul class="list-features">
               <li><span class="jam jam-check"></span> No credit card requiered</li>
               <li><span class="jam jam-check"></span> 30 days free trial</li>
             </ul>
@@ -63,6 +65,29 @@
           <div class="dashboard-image">
             <img src="images/dashboard.png" alt="dashboard image">
           </div>
+        </section>
+        <section class="panel profile-panel">
+          <div class="home-profile-info">
+            <h2 class="title-panel">
+              You will have a completely personalized service
+            </h2>
+            <p class="text-panel">
+              Our application is highly customizable, anyone can configure it to their liking, you can even add
+              extensions.
+            </p>
+            <ul class="list-features">
+              <li><span class="jam jam-check"></span> Highly configurable</li>
+              <li><span class="jam jam-check"></span> Analysis of data</li>
+              <li><span class="jam jam-check"></span> Graphics of the traffic generated</li>
+              <li><span class="jam jam-check"></span> detailed movements</li>
+            </ul>
+          </div>
+          <div class="home-profile-image">
+            <img src="images/profile.png" alt="home profile">
+          </div>
+        </section>
+        <section class="panel calender-panel">
+
         </section>
       </main>
     </div>

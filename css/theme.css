@@ -1,0 +1,17 @@
+
+.panel {
+  margin-left: var(--margin-x-panel);
+  margin-right:var(--margin-x-panel) ;
+}
+
+.title-panel {
+    font-size: var(--font-title-panel);
+  line-height: var(--line-height-title);
+}
+.text-panel {
+    line-height: var(--line-height-text);
+    font-size: 1em;
+}
+
+/* lista  de caracteristicas */
+

@@ -21,7 +21,7 @@ body {
 }
 
 .menu {
-  padding: 2.6rem 4rem 3rem;
+  padding: 2.2rem 4rem 3rem;
   font-size: 1rem;
 }
 .menu button:nth-child(1) {
@@ -33,8 +33,6 @@ body {
   --button-default-color:white;
 }
 
-/* --== margenes para los paneles ==-- */
-
 
 /*--==== dashboard====-- */
 
@@ -42,18 +40,13 @@ body {
   display: grid;
   grid-template-columns: minmax(300px,max-content) 600px;
   justify-content: center;
-  width: 100%;
-  padding: 1rem 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
 }
-.dashboard-info-title {
-  font-size: var(--font-title-panel);
-  line-height: 1.6em;
-}
+
 .dashboard-info p {
   margin-top: 1em;
-  font-size: 1em;
-  line-height: var(--line-height);
 }
 .dashboard-group-badge {
   display: inline-flex;
@@ -97,20 +90,7 @@ body {
   --button-default-background: var(--purple);
   width: auto;
 }
-.dashboard-list-features {
-  list-style-type: none;
-  line-height: var(--line-height);
-}
-.dashboard-list-features span.jam {
-  font-size: 1em;
-  border-radius: 50%;
-  background-color: var(--purple);
-  color: white;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: .1em;
-}
+
 
 .dashboard-image {
   text-align: center;
@@ -151,3 +131,17 @@ body {
   height: calc(1em + .2em);
 }
 
+
+/* --== HOME - PROFILE==-- */
+
+.profile-panel {
+  display: grid;
+  grid-template-columns: minmax(400px,500px) minmax(400px,600px);
+  justify-content: center;
+}
+.home-profile-title {
+  font-size: var(--font-title-panel);
+}
+.profile-panel .text-panel {
+  margin-bottom: 1em;
+}
