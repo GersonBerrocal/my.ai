@@ -147,3 +147,23 @@ body {
 }
 
 /*--== CALENDAR ==--*/
+.calendar-panel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --== ANALITYCS ==-- */
+
+.analitycs-panel {
+  display: grid;
+  grid-template-columns: minmax(400px,600px) minmax(400px,500px);
+  justify-content: center;
+  align-items: center;
+}
+.analitycs-panel-info {
+  order: 2;
+}
