@@ -167,3 +167,21 @@ body {
 .analitycs-panel-info {
   order: 2;
 }
+
+/* --== COMMENTS ==-- */
+
+.comments-panel {
+  margin-right:10em ;
+  margin-left:10em ;
+  margin-bottom: 4em;
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  grid-gap: 2em;
+}
+.comments-panel .comment {
+  text-align: justify;
+}
+.comments-panel .comment p{
+  margin: .5em 0;
+}

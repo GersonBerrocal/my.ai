@@ -117,3 +117,27 @@
   margin-right: .1em;
   vertical-align: middle;
 }
+
+/* --== comments ==-- */
+.comment {
+  background-image: url('/images/quote-left.svg'),url('/images/quote-right.svg');
+  background-repeat: no-repeat;
+  background-size: 1.4em, 1.4em;
+  background-position: left top, right bottom;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  border-radius: 0 8px 0 8px;
+}
+.comment-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: .8em;
+}
+.comment-user img {
+  align-self: flex-start;
+  width: 2.2em;
+  display: block;
+  margin-right: .8em;
+  /* margin-left: .8em; */
+}

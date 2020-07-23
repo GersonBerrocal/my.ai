@@ -13,5 +13,9 @@
     font-size: 1em;
 }
 
-/* lista  de caracteristicas */
 
+.comment {
+  padding-top: .8em;
+  padding-bottom: .8em;
+  background-color: var(--soft-white);
+}
