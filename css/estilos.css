@@ -185,3 +185,32 @@ body {
 .comments-panel .comment p{
   margin: .5em 0;
 }
+
+
+/* --== FOLDERS PANEL ==-- */
+.folder-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right:10em;
+  margin-left:10em;
+  /* margin-bottom: 4em; */
+  align-items: center;
+}
+.folder-panel-info {
+  order: 2;
+}
+.folder-panel-info .title-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.folder-panel .list-features {
+  margin-top: 1em;
+}
+.title-big-panel {
+  font-size: 3em;
+  line-height: initial;
+}
+.folder-panel-image {
+  text-align: center;
+}
