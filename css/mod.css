@@ -2,3 +2,7 @@
 .is-hiden {
   display: none;
 }
+
+div[class='section-active'] {
+  background-color: red !important;
+}

@@ -9,7 +9,11 @@ body {
 .container {
   background-color: hsl(42,60%,90%);
   border-radius: 0 0 30px 30px;
-  overflow-y: auto;
+  overflow-y: scroll; 
+}
+
+.container::-webkit-scrollbar{
+  display: none;
 }
 
 /*viewport */
@@ -213,4 +217,13 @@ body {
 }
 .folder-panel-image {
   text-align: center;
+}
+
+/* animaciones */
+
+.panel.panel-active {
+  animation-name: panel-aparece;
+  animation-duration: .25s;
+  animation-direction: normal;
+  animation-timing-function: linear;
 }

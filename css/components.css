@@ -87,12 +87,18 @@
 .menu-section-title {
   font-size: 1em;
 }
-.menu-section-item.section-active span.jam,
-.menu-section-item:hover span.jam {
+.menu-section span.section-active, .menu-section span.jam:hover {
   color: white;
   box-shadow: 0 7px 12px 3px var(--shadow-dark);
   background-color: var(--purple);
 }
+
+/* .menu-section-item.section-active span.jam,
+.menu-section-item:hover span.jam {
+  color: white;
+  box-shadow: 0 7px 12px 3px var(--shadow-dark);
+  background-color: var(--purple);
+} */
 .menu-section-item.section-active .menu-section-item {
   font-weight: bolder;
 }

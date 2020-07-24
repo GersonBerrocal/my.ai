@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MY.AI</title>
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-  <link rel="stylesheet" href="css/config.css">
-  <link rel="stylesheet" href="css/elementos.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/mod.css">
+  <link rel="stylesheet" href="/css/config.css">
+  <link rel="stylesheet" href="/css/elementos.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/mod.css">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
         </nav>
       </header>
       <main>
-        <section class="panel dashboard-panel is-hiden">
+        <section class="panel dashboard-panel panel-active">
           <div class="dashboard-info">
             <h1 class="title-panel">
               Get better
@@ -63,7 +63,7 @@
             </ul>
           </div>
           <div class="dashboard-image">
-            <img src="images/dashboard.png" alt="dashboard image">
+            <img src="/images/dashboard.png" alt="dashboard image">
           </div>
         </section>
         <section class="panel profile-panel is-hiden">
@@ -83,7 +83,7 @@
             </ul>
           </div>
           <div class="home-profile-image">
-            <img src="images/profile.png" alt="home profile">
+            <img src="/images/profile.png" alt="home profile">
           </div>
         </section>
         <section class="panel calendar-panel is-hiden">
@@ -114,7 +114,7 @@
             </ul>
           </div>
           <div class="analitycs-panel-image">
-            <img src="images/analysis.png" alt="imagen de anaisis">
+            <img src="/images/analysis.png" alt="imagen de anaisis">
           </div>
         </section>
         <section class="panel comments-panel is-hiden">
@@ -193,7 +193,7 @@
             </div>
           </div>
         </section>
-        <section class="panel folder-panel">
+        <section class="panel folder-panel is-hiden">
           <div class="folder-panel-info">
             <h2 class="title-panel">
               <div class="title-big-panel">50GB</div>
@@ -213,9 +213,9 @@
     </div>
     <div class="menu-section-container">
       <div class="menu-section">
-        <div class="menu-section-item section-active">
+        <div class="menu-section-item">
           <div>
-            <span class="jam jam-layout-f"></span>
+            <span class="jam jam-layout-f section-active" data-section="dashboard-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Dashboard
@@ -223,7 +223,7 @@
         </div>
         <div class="menu-section-item">
           <div>
-            <span class="jam jam-users"></span>
+            <span class="jam jam-users" data-section="profile-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Profiles
@@ -231,7 +231,7 @@
         </div>
         <div class="menu-section-item">
           <div>
-            <span class="jam jam-calendar"></span>
+            <span class="jam jam-calendar" data-section="calendar-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Calendar
@@ -239,7 +239,7 @@
         </div>
         <div class="menu-section-item">
           <div>
-            <span class="jam jam-pie-chart"></span>
+            <span class="jam jam-pie-chart" data-section="analitycs-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Analytics
@@ -247,7 +247,7 @@
         </div>
         <div class="menu-section-item">
           <div>
-            <span class="jam jam-messages-alt"></span>
+            <span class="jam jam-messages-alt" data-section="comments-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Comments
@@ -255,7 +255,7 @@
         </div>
         <div class="menu-section-item">
           <div>
-            <span class="jam jam-folder-open"></span>
+            <span class="jam jam-folder-open" data-section="folder-panel"></span>
           </div>
           <h4 class="menu-section-title">
             Folders
@@ -264,6 +264,7 @@
       </div>
     </div>
   </div>
+  <script src="/js/secciones.js"></script>
 </body>
 
 </html>
